@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">TKS GDG SSA \nAND UDACITY</string>
+    <string name="from">From: Mateus S.</string>
+</resources>
