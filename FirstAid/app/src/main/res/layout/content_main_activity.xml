@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mateuss.firstaid.MainActivity">
+
+    <LinearLayout
+        style="@style/LinearLayoutVerticalMatchParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/LinearLayoutImageButton">
+
+                <ImageButton
+                    style="@style/ImageButtonAccident"
+                    android:id="@+id/btn_rcp"
+                    android:src="@drawable/ic_medical"
+                    android:onClick="goIntent"/>
+
+                <TextView
+                    style="@style/TextViewImageButtonAccident"
+                    android:text="Reanimação Cárdio Pulmonar (RCP)" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutImageButton">
+
+                <ImageButton
+                    style="@style/ImageButtonAccident"
+                    android:id="@+id/btn_pcr"
+                    android:src="@drawable/ic_medical"
+                    android:onClick="goIntent"/>
+
+                <TextView
+                    style="@style/TextViewImageButtonAccident"
+                    android:text="Parada Cárdio Respiratória" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/LinearLayoutImageButton">
+
+                <ImageButton
+                    style="@style/ImageButtonAccident"
+                    android:id="@+id/btn_cpr"
+                    android:src="@drawable/ic_medical"
+                    android:onClick="goIntent"/>
+
+                <TextView
+                    style="@style/TextViewImageButtonAccident"
+                    android:text="Reanimação Cárdio Pulmonar" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutImageButton">
+
+                <ImageButton
+                    style="@style/ImageButtonAccident"
+                    android:id="@+id/btn_analise"
+                    android:src="@drawable/ic_medical"
+                    android:onClick="goIntent"/>
+
+                <TextView
+                    style="@style/TextViewImageButtonAccident"
+                    android:text="Analise primária e secundária" />
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
